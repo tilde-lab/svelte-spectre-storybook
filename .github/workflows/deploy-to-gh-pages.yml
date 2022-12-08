@@ -1,0 +1,31 @@
+
+name: Pull, Build and Deploy
+
+on: workflow_dispatch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          name: basf/svelte-spectre
+
+      - name: Install
+        run: |
+          npm install
+      - name: Test
+        run: |
+          npm run test
+      - name: Format
+        run: |
+          npm run format
+      - name: Build
+        run: |
+          npm run build
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.7
+        with:
+          branch: gh-pages
+          folder: build
