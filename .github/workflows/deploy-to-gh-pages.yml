@@ -1,7 +1,11 @@
+name: build kit.metis.science
 
-name: Pull, Build and Deploy
+on:
+  workflow_dispatch:
 
-on: workflow_dispatch
+  repository_dispatch:
+    types:
+      - webhook
 
 jobs:
   build-and-deploy:
