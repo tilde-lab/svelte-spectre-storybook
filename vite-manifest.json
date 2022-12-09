@@ -8,7 +8,7 @@
     "src": "src/www/assets/github.svg"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-4160c97f.js",
+    "file": "_app/immutable/start-043c337a.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -418,7 +418,7 @@
     ]
   },
   "src/www/docs/components/periodictable/+page.md": {
-    "file": "_app/immutable/components/pages/docs/components/periodictable/_page.md-69cc22e0.js",
+    "file": "_app/immutable/components/pages/docs/components/periodictable/_page.md-3f2dae0e.js",
     "src": "src/www/docs/components/periodictable/+page.md",
     "isEntry": true,
     "imports": [
@@ -1266,7 +1266,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/24.js": {
-    "file": "_app/immutable/chunks/24-f424850e.js",
+    "file": "_app/immutable/chunks/24-86ae3ef2.js",
     "src": ".svelte-kit/generated/nodes/24.js",
     "isDynamicEntry": true,
     "imports": [
@@ -1473,25 +1473,25 @@
       "src/www/docs/layouts/toggle/+page.md"
     ]
   },
-  "src/www/+layout.css": {
-    "file": "_app/immutable/assets/_layout-36e405a6.css",
-    "src": "src/www/+layout.css"
+  "src/www/docs/+layout.css": {
+    "file": "_app/immutable/assets/_layout-191393e7.css",
+    "src": "src/www/docs/+layout.css"
   },
   "src/www/docs/components/toast/+page.css": {
     "file": "_app/immutable/assets/_page-0816f381.css",
     "src": "src/www/docs/components/toast/+page.css"
   },
-  "knobs.css": {
-    "file": "_app/immutable/assets/knobs-f05849e3.css",
-    "src": "knobs.css"
-  },
   "src/www/+page.css": {
     "file": "_app/immutable/assets/_page-34759894.css",
     "src": "src/www/+page.css"
   },
-  "src/www/docs/+layout.css": {
-    "file": "_app/immutable/assets/_layout-191393e7.css",
-    "src": "src/www/docs/+layout.css"
+  "src/www/+layout.css": {
+    "file": "_app/immutable/assets/_layout-36e405a6.css",
+    "src": "src/www/+layout.css"
+  },
+  "knobs.css": {
+    "file": "_app/immutable/assets/knobs-f05849e3.css",
+    "src": "knobs.css"
   },
   "Spectre.css": {
     "file": "_app/immutable/assets/Spectre-c7f5ea1d.css",
