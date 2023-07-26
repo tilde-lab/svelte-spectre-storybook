@@ -12,12 +12,12 @@
 		<link href="../../_app/immutable/assets/Spectre-598af11b.css" rel="stylesheet">
 		<link href="../../_app/immutable/assets/_layout-191393e7.css" rel="stylesheet">
 		<link href="../../_app/immutable/assets/_page-e2084339.css" rel="stylesheet">
-		<link rel="modulepreload" href="../../_app/immutable/start-6f68d243.js">
+		<link rel="modulepreload" href="../../_app/immutable/start-87a8abdb.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/index-3764ed31.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/singletons-420d5dfd.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/index-de8aeca4.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/paths-6cd3a76e.js">
-		<link rel="modulepreload" href="../../_app/immutable/components/pages/_layout.svelte-62e9847d.js">
+		<link rel="modulepreload" href="../../_app/immutable/components/pages/_layout.svelte-afa38c83.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/stores-4e890dda.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/Accordion-edc638da.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/index-4d5523d7.js">
@@ -38,11 +38,11 @@
 		<link rel="modulepreload" href="../../_app/immutable/chunks/media-78de1f6d.js">
 		<link rel="modulepreload" href="../../_app/immutable/components/pages/docs/_layout.svelte-6e6f5bd3.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/Container-f75864b9.js">
-		<link rel="modulepreload" href="../../_app/immutable/components/pages/docs/components/periodictable/_page.md-05f5f70f.js">
+		<link rel="modulepreload" href="../../_app/immutable/components/pages/docs/components/periodictable/_page.md-864c166e.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/Autocomplete-a1a755b7.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/Chip-bf3b7ffc.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/Avatar-757a333c.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/Modal-ecd632e0.js"><title>svelte-spectre@0.4.15: Periodic Table</title><!-- HEAD_svelte-pjz1z9_START --><!-- HEAD_svelte-pjz1z9_END -->
+		<link rel="modulepreload" href="../../_app/immutable/chunks/Modal-ecd632e0.js"><title>svelte-spectre@0.4.16: Periodic Table</title><!-- HEAD_svelte-pjz1z9_START --><!-- HEAD_svelte-pjz1z9_END -->
 	</head>
 
 	<body>
@@ -111,17 +111,17 @@
 		
 
 		<main class="px-3"><div class="container grid-md svelte-ha8buz"><h1>Periodic Table</h1>
-<p>The Periodic Table component allows to select chemical elements conveniently. Currently up to 3 distinct chemical elements or up to 3 named groups can be selected. A named group is either a column or row in the periodic table, such as <code>alkali</code>, <code>alkalines</code>, <code>pnictogens</code>, <code>chalcogens</code>, <code>period 2</code>, <code>period 6</code>, <code>lanthanides</code>, <code>actinides</code>, etc.</p>
+<p>The Periodic Table component allows to select chemical elements conveniently. Currently up to 3 distinct chemical elements or up to 3 named groups can be selected. A named group is either a column or a row in the periodic table, such as <code>alkali</code>, <code>alkalines</code>, <code>pnictogens</code>, <code>chalcogens</code>, <code>period 2</code>, <code>period 6</code>, <code>lanthanides</code>, <code>actinides</code>, etc.</p>
 <button class="btn btn-default btn-md           svelte-1qo7wto">Open Periodic Table</button>
 
 
-<div class="modal-fs modal  svelte-lijk05" id="modal-6a7dbd05-e029-49de-ba9a-6129ff77fe00"><span class="modal-overlay svelte-lijk05" aria-label="Close"></span>
+<div class="modal-fs modal  svelte-lijk05" id="modal-93e431fd-cbb5-4da2-85da-ad5f2b8d6a15"><span class="modal-overlay svelte-lijk05" aria-label="Close"></span>
 	<div class="modal-container svelte-lijk05"><button id="close" class="btn btn-link btn-xxl  btn-action         svelte-1qo7wto"><i class="icon icon-1x icon-cross  svelte-1wwpxa">
 </i></button>
 		<div class="modal-header svelte-lijk05"></div>
 		<div class="modal-body svelte-lijk05"><div class="content"><p class="periodic_table_input svelte-xrqnhe"><div class="form-autocomplete svelte-1evb6kq"><div class="form-autocomplete-input form-input svelte-1evb6kq">
 
-		<div class="form-input-icon-wrap svelte-1evb6kq" data-active=""><input class="form-input svelte-1evb6kq" type="text" tabindex="0" placeholder="Type or select 3 elements"  value="">
+		<div class="form-input-icon-wrap svelte-1evb6kq" data-active=""><input class="form-input svelte-1evb6kq" type="text" tabindex="0" placeholder="Type or select up to 3 elements"  value="">
 			</div></div>
 
 	</div>
@@ -799,7 +799,7 @@
 		<div class="modal-footer svelte-lijk05"></div></div>
 </div>
 <pre class="language-sv"><!-- HTML_TAG_START --><code class="language-sv"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
-	<span class="token keyword">import</span> <span class="token punctuation">&#123;</span> PeriodicTable <span class="token punctuation">&#125;</span> <span class="token keyword">from</span> <span class="token string">'svelte-spectre'</span>
+	<span class="token keyword">import</span> <span class="token punctuation">&#123;</span> PeriodicTable <span class="token punctuation">&#125;</span> <span class="token keyword">from</span> <span class="token string">'svelte-spectre'</span><span class="token punctuation">;</span>
 
 	<span class="token keyword">let</span> selected <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> clear<span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
@@ -832,8 +832,8 @@
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="17jdf92">
-			import { start } from "../../_app/immutable/start-6f68d243.js";
+		<script type="module" data-sveltekit-hydrate="jbmj67">
+			import { start } from "../../_app/immutable/start-87a8abdb.js";
 
 			start({
 				env: {},
@@ -847,8 +847,8 @@
 					form: null
 				},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="17jdf92"]').parentNode,
-				version: "1672455401015"
+				target: document.querySelector('[data-sveltekit-hydrate="jbmj67"]').parentNode,
+				version: "1690383962327"
 			});
 		</script>
 	</div>
