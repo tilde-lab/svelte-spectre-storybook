@@ -1,4 +1,4 @@
-name: build kit.metis.science
+name: build kit.optimade.science
 
 on:
   workflow_dispatch:
