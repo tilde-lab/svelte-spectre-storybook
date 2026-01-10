@@ -11,12 +11,12 @@
 		<link href="../../_app/immutable/assets/_layout-5a978cc4.css" rel="stylesheet">
 		<link href="../../_app/immutable/assets/Spectre-7af46837.css" rel="stylesheet">
 		<link href="../../_app/immutable/assets/_layout-fbe21049.css" rel="stylesheet">
-		<link rel="modulepreload" href="../../_app/immutable/start-68eb9eea.js">
+		<link rel="modulepreload" href="../../_app/immutable/start-2402f478.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/index-3887b52b.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/singletons-cac7c201.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/index-63eca730.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/paths-6cd3a76e.js">
-		<link rel="modulepreload" href="../../_app/immutable/components/pages/_layout.svelte-609c3227.js">
+		<link rel="modulepreload" href="../../_app/immutable/components/pages/_layout.svelte-654c29b2.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/stores-ab7b1d67.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/Accordion-390153e3.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/index-e98ad11a.js">
@@ -37,8 +37,8 @@
 		<link rel="modulepreload" href="../../_app/immutable/chunks/media-3fbdcfa1.js">
 		<link rel="modulepreload" href="../../_app/immutable/components/pages/docs/_layout.svelte-77726756.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/Container-02841462.js">
-		<link rel="modulepreload" href="../../_app/immutable/components/pages/docs/components/timer/_page.md-751ef398.js">
-		<link rel="modulepreload" href="../../_app/immutable/chunks/Input-351c3b36.js"><title>svelte-spectre@0.5.2: Timer</title><!-- HEAD_svelte-pjz1z9_START --><!-- HEAD_svelte-pjz1z9_END -->
+		<link rel="modulepreload" href="../../_app/immutable/components/pages/docs/components/timer/_page.md-07aea63d.js">
+		<link rel="modulepreload" href="../../_app/immutable/chunks/Input-351c3b36.js"><title>svelte-spectre@0.5.3: Timer</title><!-- HEAD_svelte-pjz1z9_START --><!-- HEAD_svelte-pjz1z9_END -->
 	</head>
 
 	<body>
@@ -116,26 +116,24 @@
 <p>The remaining time is calculated from the real time, not from the page load.</p>
 <hr>
 <h2>Demo</h2>
-<h4>Start timestamp (Unix, seconds)</h4>
+<h4>Start timestamp (Unix time), duration (seconds)</h4>
 <pre class="language-undefined"><!-- HTML_TAG_START --><code class="language-undefined">&lt;Timer &#123;duration&#125; &#123;startTimestamp&#125;/&gt;</code><!-- HTML_TAG_END --></pre>
+<p>Start TimeStamp:</p>
 
-<div class="col-xs-12 svelte-1fm52q8"><input type="number" class="form-input input-md   svelte-1fm52q8" list="list-27cbe2ec-3970-43ba-8c53-6a88e2b8a347" id="input-27cbe2ec-3970-43ba-8c53-6a88e2b8a347" value="1767331225">
+<div class="col-xs-12 svelte-1fm52q8"><input type="number" class="form-input input-md   svelte-1fm52q8" list="list-7d2b215b-b06b-479c-80f7-c9de87f9eb38" id="input-7d2b215b-b06b-479c-80f7-c9de87f9eb38" value="1768043458">
+	
+	
+	</div>
+
+<p>Duration:</p>
+
+<div class="col-xs-12 svelte-1fm52q8"><input type="number" class="form-input input-md   svelte-1fm52q8" list="list-96b218fa-5244-40cf-abf2-0c8394d6a646" id="input-96b218fa-5244-40cf-abf2-0c8394d6a646" value="300">
 	
 	
 	</div>
 
 <br>
-<p>We finish in <span>05:00</span>.</p>
-<h4>Duration (seconds)</h4>
-<pre class="language-undefined"><!-- HTML_TAG_START --><code class="language-undefined">&lt;Timer &#123;duration&#125;/&gt;</code><!-- HTML_TAG_END --></pre>
-
-<div class="col-xs-12 svelte-1fm52q8"><input type="number" class="form-input input-md   svelte-1fm52q8" list="list-c7af08a6-e4ce-433a-b8cd-3217d2a5b06e" id="input-c7af08a6-e4ce-433a-b8cd-3217d2a5b06e" value="300">
-	
-	
-	</div>
-
-<br>
-<p>We finish in <span>05:00</span>.</p>
+<p>We finish in <span>00:00</span>.</p>
 </div></main>
 
 		
@@ -163,8 +161,8 @@
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="o9krk">
-			import { start } from "../../_app/immutable/start-68eb9eea.js";
+		<script type="module" data-sveltekit-hydrate="1numbrs">
+			import { start } from "../../_app/immutable/start-2402f478.js";
 
 			start({
 				env: {},
@@ -178,8 +176,8 @@
 					form: null
 				},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="o9krk"]').parentNode,
-				version: "1767331211563"
+				target: document.querySelector('[data-sveltekit-hydrate="1numbrs"]').parentNode,
+				version: "1768043444927"
 			});
 		</script>
 	</div>
