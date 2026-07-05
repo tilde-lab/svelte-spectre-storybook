@@ -12,7 +12,7 @@
 		<link href="../../_app/immutable/assets/Spectre-c55776b1.css" rel="stylesheet">
 		<link href="../../_app/immutable/assets/_layout-fbe21049.css" rel="stylesheet">
 		<link href="../../_app/immutable/assets/knobs-11c0d1db.css" rel="stylesheet">
-		<link rel="modulepreload" href="../../_app/immutable/start-ae5ba955.js">
+		<link rel="modulepreload" href="../../_app/immutable/start-64174e8e.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/index-3887b52b.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/singletons-cac7c201.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/index-63eca730.js">
@@ -38,7 +38,7 @@
 		<link rel="modulepreload" href="../../_app/immutable/chunks/media-3fbdcfa1.js">
 		<link rel="modulepreload" href="../../_app/immutable/components/pages/docs/_layout.svelte-77726756.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/Container-02841462.js">
-		<link rel="modulepreload" href="../../_app/immutable/components/pages/docs/components/range/_page.md-fc3a820c.js">
+		<link rel="modulepreload" href="../../_app/immutable/components/pages/docs/components/range/_page.md-08efe4d8.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/Group-7b634864.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/knobs-958b60b6.js">
 		<link rel="modulepreload" href="../../_app/immutable/chunks/Col-3351aef0.js"><title>svelte-spectre@0.5.5: Range</title><!-- HEAD_svelte-pjz1z9_START --><!-- HEAD_svelte-pjz1z9_END -->
@@ -112,53 +112,52 @@
 		
 
 		<main class="px-3"><div class="container grid-md svelte-ha8buz"><h1>Range</h1>
-<p>The Range component is for selecting values from ranges. It supports a single
-handle (default) and a dual-handle mode for selecting a min/max range.</p>
+<p>The Range component is required for selecting the numerical values according to the ranges.
+It supports a single-handle mode (default) and a dual-handle mode.</p>
 <h2>Single range</h2>
-<p>Use <code>bind:range</code> for a single-handle slider.</p>
-<p><form class=" svelte-1acn43e"><div class="form-group   svelte-10wp1up"><h4>Range (single)</h4>
-            <label id="range-6de95cc5-e6a9-49f5-b02b-ec392a425e39" class="is-null    h-md    svelte-15t0syo" style="--ux-min: 0; --ux-max: 100; --user-min: 0%; --user-max: 45%; --range-color: var(--primary-color);" data-range="45">
+<p>Use <code>bind:range</code> for a single-handle mode.</p>
+<p><form class=" svelte-1acn43e"><div class="form-group   svelte-10wp1up"><label id="range-8bf6cfa2-d39f-453b-a116-254f790deb6e" class="is-null    h-md    svelte-15t0syo" style="--ux-min: 0; --ux-max: 100; --user-min: 0%; --user-max: 45%; --range-color: var(--primary-color);" data-range="45">
 	<div class="range-track svelte-15t0syo" role="presentation"><div class="range-track-bar svelte-15t0syo"></div>
 		<div class="range-selection svelte-15t0syo"></div>
 		<button type="button" class="range-handle range-handle-max svelte-15t0syo" style="left: 45%" aria-label="value" aria-valuemin="0" aria-valuemax="100" aria-valuenow="45" role="slider" tabindex="0"></button></div>
 </label>
 </div>
 </form></p>
-<p><section class="bg-secondary px-2 s-rounded svelte-12pz93u"><div class="columns       svelte-1flrtuo"><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~range~jhvbzaqdzmn">range
+<p><section class="bg-secondary px-2 s-rounded svelte-12pz93u"><div class="columns       svelte-1flrtuo"><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~range~5uk5wpjmiaw">range
 
-						<input size="10" type="number" min="0" max="100" class="form-input svelte-12pz93u" id="~knobs~range~jhvbzaqdzmn" value="45">
+						<input size="10" type="number" min="0" max="100" class="form-input svelte-12pz93u" id="~knobs~range~5uk5wpjmiaw" value="45">
 					</label></div>
 			
-</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~ux_min~jhvbzaqdzmn">ux_min
+</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~ux_min~5uk5wpjmiaw">ux_min
 
-						<input size="10" type="number" min="0" max="10" class="form-input svelte-12pz93u" id="~knobs~ux_min~jhvbzaqdzmn" value="0">
+						<input size="10" type="number" min="0" max="10" class="form-input svelte-12pz93u" id="~knobs~ux_min~5uk5wpjmiaw" value="0">
 					</label></div>
 			
-</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~ux_max~jhvbzaqdzmn">ux_max
+</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~ux_max~5uk5wpjmiaw">ux_max
 
-						<input size="10" type="number" min="10" max="100" class="form-input svelte-12pz93u" id="~knobs~ux_max~jhvbzaqdzmn" value="100">
+						<input size="10" type="number" min="10" max="100" class="form-input svelte-12pz93u" id="~knobs~ux_max~5uk5wpjmiaw" value="100">
 					</label></div>
 			
-</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~step~jhvbzaqdzmn">step
+</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~step~5uk5wpjmiaw">step
 
-						<input size="5" type="number" min="1" max="10" class="form-input svelte-12pz93u" id="~knobs~step~jhvbzaqdzmn" value="1">
+						<input size="5" type="number" min="1" max="10" class="form-input svelte-12pz93u" id="~knobs~step~5uk5wpjmiaw" value="1">
 					</label></div>
 			
-</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~height~jhvbzaqdzmn">height
+</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~height~5uk5wpjmiaw">height
 
-						<select class="form-select svelte-12pz93u" id="~knobs~height~jhvbzaqdzmn"><option value="sm" >sm</option><option value="md" selected>md</option><option value="lg" >lg</option><option value="xl" >xl</option><option value="xxl" >xxl</option></select>
+						<select class="form-select svelte-12pz93u" id="~knobs~height~5uk5wpjmiaw"><option value="sm" >sm</option><option value="md" selected>md</option><option value="lg" >lg</option><option value="xl" >xl</option><option value="xxl" >xxl</option></select>
 					</label></div>
 			
-</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~inline~jhvbzaqdzmn">inline
+</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~inline~5uk5wpjmiaw">inline
 
-						<div class="form-checkbox svelte-12pz93u"><input type="checkbox" id="~knobs~inline~jhvbzaqdzmn" class="svelte-12pz93u">
+						<div class="form-checkbox svelte-12pz93u"><input type="checkbox" id="~knobs~inline~5uk5wpjmiaw" class="svelte-12pz93u">
 								<i class="form-icon svelte-12pz93u"></i>
 							</div>
 					</label></div>
 			
-</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~validity~jhvbzaqdzmn">validity
+</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~validity~5uk5wpjmiaw">validity
 
-						<select class="form-select svelte-12pz93u" id="~knobs~validity~jhvbzaqdzmn"><option selected>null</option><option value="success" >success</option><option value="warning" >warning</option><option value="error" >error</option><option value="info" >info</option></select>
+						<select class="form-select svelte-12pz93u" id="~knobs~validity~5uk5wpjmiaw"><option selected>null</option><option value="success" >success</option><option value="warning" >warning</option><option value="error" >error</option><option value="info" >info</option></select>
 					</label></div>
 			
 </div>
@@ -175,12 +174,11 @@ handle (default) and a dual-handle mode for selecting a min/max range.</p>
     <span class="token attr-name">ux_min=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token number">0</span><span class="token punctuation">&#125;</span></span>
     <span class="token attr-name">ux_max=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token number">100</span><span class="token punctuation">&#125;</span></span>
     <span class="token attr-name">inline=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token boolean">false</span><span class="token punctuation">&#125;</span></span>
-    <span class="token attr-name">validity=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token keyword">null</span><span class="token punctuation">&#125;</span></span><span class="token punctuation">/></span></span></code><!-- HTML_TAG_END --></pre>
+    <span class="token attr-name">validity=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token keyword">null</span><span class="token punctuation">&#125;</span></span> <span class="token punctuation">/></span></span></code><!-- HTML_TAG_END --></pre>
 <h2>Dual range</h2>
-<p>Set <code>dual={true}</code> (or simply pass <code>user_min</code>/<code>user_max</code>) to enable two-handle
+<p>Set <code>dual={true}</code> (or pass <code>user_min</code> and <code>user_max</code>) to enable two-handle
 range selection. Bind <code>user_min</code> and <code>user_max</code> to track the selected range.</p>
-<p><form class=" svelte-1acn43e"><div class="form-group   svelte-10wp1up"><h4>Range (dual)</h4>
-            <label id="range-9bb84fdc-52d1-45f0-9003-3abeb68c632b" class="is-null  dual  h-md    svelte-15t0syo" style="--ux-min: 0; --ux-max: 100; --user-min: 20%; --user-max: 80%; --range-color: var(--primary-color);" data-range="20 – 80">
+<p><form class=" svelte-1acn43e"><div class="form-group   svelte-10wp1up"><label id="range-97b3760f-a40a-404b-b4df-7ab54aae37a5" class="is-null  dual  h-md    svelte-15t0syo" style="--ux-min: 0; --ux-max: 100; --user-min: 20%; --user-max: 80%; --range-color: var(--primary-color);" data-range="20 – 80">
 	<div class="range-track svelte-15t0syo" role="presentation"><div class="range-track-bar svelte-15t0syo"></div>
 		<div class="range-selection svelte-15t0syo"></div>
 		<button type="button" class="range-handle range-handle-min svelte-15t0syo" style="left: 20%" aria-label="minimum" aria-valuemin="0" aria-valuemax="80" aria-valuenow="20" role="slider" tabindex="0"></button>
@@ -188,46 +186,46 @@ range selection. Bind <code>user_min</code> and <code>user_max</code> to track t
 </label>
 </div>
 </form></p>
-<p><section class="bg-secondary px-2 s-rounded svelte-12pz93u"><div class="columns       svelte-1flrtuo"><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~user_min~z1wdmpote5l">user_min
+<p><section class="bg-secondary px-2 s-rounded svelte-12pz93u"><div class="columns       svelte-1flrtuo"><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~user_min~etmgq6tqbvn">user_min
 
-						<input size="10" type="number" min="0" max="100" class="form-input svelte-12pz93u" id="~knobs~user_min~z1wdmpote5l" value="20">
+						<input size="10" type="number" min="0" max="100" class="form-input svelte-12pz93u" id="~knobs~user_min~etmgq6tqbvn" value="20">
 					</label></div>
 			
-</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~user_max~z1wdmpote5l">user_max
+</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~user_max~etmgq6tqbvn">user_max
 
-						<input size="10" type="number" min="0" max="100" class="form-input svelte-12pz93u" id="~knobs~user_max~z1wdmpote5l" value="80">
+						<input size="10" type="number" min="0" max="100" class="form-input svelte-12pz93u" id="~knobs~user_max~etmgq6tqbvn" value="80">
 					</label></div>
 			
-</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~ux_min~z1wdmpote5l">ux_min
+</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~ux_min~etmgq6tqbvn">ux_min
 
-						<input size="10" type="number" min="0" max="10" class="form-input svelte-12pz93u" id="~knobs~ux_min~z1wdmpote5l" value="0">
+						<input size="10" type="number" min="0" max="10" class="form-input svelte-12pz93u" id="~knobs~ux_min~etmgq6tqbvn" value="0">
 					</label></div>
 			
-</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~ux_max~z1wdmpote5l">ux_max
+</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~ux_max~etmgq6tqbvn">ux_max
 
-						<input size="10" type="number" min="10" max="100" class="form-input svelte-12pz93u" id="~knobs~ux_max~z1wdmpote5l" value="100">
+						<input size="10" type="number" min="10" max="100" class="form-input svelte-12pz93u" id="~knobs~ux_max~etmgq6tqbvn" value="100">
 					</label></div>
 			
-</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~step~z1wdmpote5l">step
+</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~step~etmgq6tqbvn">step
 
-						<input size="5" type="number" min="1" max="10" class="form-input svelte-12pz93u" id="~knobs~step~z1wdmpote5l" value="1">
+						<input size="5" type="number" min="1" max="10" class="form-input svelte-12pz93u" id="~knobs~step~etmgq6tqbvn" value="1">
 					</label></div>
 			
-</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~height~z1wdmpote5l">height
+</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~height~etmgq6tqbvn">height
 
-						<select class="form-select svelte-12pz93u" id="~knobs~height~z1wdmpote5l"><option value="sm" >sm</option><option value="md" selected>md</option><option value="lg" >lg</option><option value="xl" >xl</option><option value="xxl" >xxl</option></select>
+						<select class="form-select svelte-12pz93u" id="~knobs~height~etmgq6tqbvn"><option value="sm" >sm</option><option value="md" selected>md</option><option value="lg" >lg</option><option value="xl" >xl</option><option value="xxl" >xxl</option></select>
 					</label></div>
 			
-</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~inline~z1wdmpote5l">inline
+</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~inline~etmgq6tqbvn">inline
 
-						<div class="form-checkbox svelte-12pz93u"><input type="checkbox" id="~knobs~inline~z1wdmpote5l" class="svelte-12pz93u">
+						<div class="form-checkbox svelte-12pz93u"><input type="checkbox" id="~knobs~inline~etmgq6tqbvn" class="svelte-12pz93u">
 								<i class="form-icon svelte-12pz93u"></i>
 							</div>
 					</label></div>
 			
-</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~validity~z1wdmpote5l">validity
+</div><div col="auto" class="column col-auto svelte-ha8buz"><div class="form-group svelte-12pz93u"><label class="form-label svelte-12pz93u" for="~knobs~validity~etmgq6tqbvn">validity
 
-						<select class="form-select svelte-12pz93u" id="~knobs~validity~z1wdmpote5l"><option selected>null</option><option value="success" >success</option><option value="warning" >warning</option><option value="error" >error</option><option value="info" >info</option></select>
+						<select class="form-select svelte-12pz93u" id="~knobs~validity~etmgq6tqbvn"><option selected>null</option><option value="success" >success</option><option value="warning" >warning</option><option value="error" >error</option><option value="info" >info</option></select>
 					</label></div>
 			
 </div>
@@ -246,7 +244,7 @@ range selection. Bind <code>user_min</code> and <code>user_max</code> to track t
     <span class="token attr-name"><span class="token namespace">bind:</span>user_max</span>
     <span class="token attr-name">ux_min=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token number">0</span><span class="token punctuation">&#125;</span></span>
     <span class="token attr-name">ux_max=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token number">100</span><span class="token punctuation">&#125;</span></span>
-    <span class="token attr-name">step=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token number">1</span><span class="token punctuation">&#125;</span></span><span class="token punctuation">/></span></span></code><!-- HTML_TAG_END --></pre>
+    <span class="token attr-name">step=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token number">1</span><span class="token punctuation">&#125;</span></span> <span class="token punctuation">/></span></span></code><!-- HTML_TAG_END --></pre>
 </div></main>
 
 		
@@ -308,8 +306,8 @@ range selection. Bind <code>user_min</code> and <code>user_max</code> to track t
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="g13v2j">
-			import { start } from "../../_app/immutable/start-ae5ba955.js";
+		<script type="module" data-sveltekit-hydrate="kc3ghl">
+			import { start } from "../../_app/immutable/start-64174e8e.js";
 
 			start({
 				env: {},
@@ -323,8 +321,8 @@ range selection. Bind <code>user_min</code> and <code>user_max</code> to track t
 					form: null
 				},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="g13v2j"]').parentNode,
-				version: "1783000869392"
+				target: document.querySelector('[data-sveltekit-hydrate="kc3ghl"]').parentNode,
+				version: "1783255066908"
 			});
 		</script>
 	</div>

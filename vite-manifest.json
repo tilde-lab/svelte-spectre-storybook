@@ -8,7 +8,7 @@
     "src": "src/www/assets/github.svg"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-ae5ba955.js",
+    "file": "_app/immutable/start-64174e8e.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -474,7 +474,7 @@
     ]
   },
   "src/www/docs/components/range/+page.md": {
-    "file": "_app/immutable/components/pages/docs/components/range/_page.md-fc3a820c.js",
+    "file": "_app/immutable/components/pages/docs/components/range/_page.md-08efe4d8.js",
     "src": "src/www/docs/components/range/+page.md",
     "isEntry": true,
     "imports": [
@@ -1352,7 +1352,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/28.js": {
-    "file": "_app/immutable/chunks/28-4a8a568d.js",
+    "file": "_app/immutable/chunks/28-83dd2755.js",
     "src": ".svelte-kit/generated/nodes/28.js",
     "isDynamicEntry": true,
     "imports": [
@@ -1543,6 +1543,18 @@
       "src/www/docs/layouts/toggle/+page.md"
     ]
   },
+  "knobs.css": {
+    "file": "_app/immutable/assets/knobs-11c0d1db.css",
+    "src": "knobs.css"
+  },
+  "src/www/+page.css": {
+    "file": "_app/immutable/assets/_page-34759894.css",
+    "src": "src/www/+page.css"
+  },
+  "src/www/+layout.css": {
+    "file": "_app/immutable/assets/_layout-5a978cc4.css",
+    "src": "src/www/+layout.css"
+  },
   "src/www/docs/components/toast/+page.css": {
     "file": "_app/immutable/assets/_page-0816f381.css",
     "src": "src/www/docs/components/toast/+page.css"
@@ -1551,21 +1563,9 @@
     "file": "_app/immutable/assets/_page-e2084339.css",
     "src": "src/www/docs/components/periodictable/+page.css"
   },
-  "src/www/+page.css": {
-    "file": "_app/immutable/assets/_page-34759894.css",
-    "src": "src/www/+page.css"
-  },
-  "knobs.css": {
-    "file": "_app/immutable/assets/knobs-11c0d1db.css",
-    "src": "knobs.css"
-  },
   "src/www/docs/+layout.css": {
     "file": "_app/immutable/assets/_layout-fbe21049.css",
     "src": "src/www/docs/+layout.css"
-  },
-  "src/www/+layout.css": {
-    "file": "_app/immutable/assets/_layout-5a978cc4.css",
-    "src": "src/www/+layout.css"
   },
   "Spectre.css": {
     "file": "_app/immutable/assets/Spectre-c55776b1.css",
