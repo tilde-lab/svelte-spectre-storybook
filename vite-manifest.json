@@ -1,14 +1,14 @@
 {
-  "src/www/assets/metis.svg": {
-    "file": "_app/immutable/assets/metis-ae631068.svg",
-    "src": "src/www/assets/metis.svg"
-  },
   "src/www/assets/github.svg": {
     "file": "_app/immutable/assets/github-3bf8ccee.svg",
     "src": "src/www/assets/github.svg"
   },
+  "src/www/assets/metis.svg": {
+    "file": "_app/immutable/assets/metis-ae631068.svg",
+    "src": "src/www/assets/metis.svg"
+  },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-64174e8e.js",
+    "file": "_app/immutable/start-13ae2ee8.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -72,7 +72,7 @@
     ]
   },
   "src/www/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-87323efd.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-52a02572.js",
     "src": "src/www/+layout.svelte",
     "isEntry": true,
     "imports": [
@@ -1128,7 +1128,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-8d8b73d0.js",
+    "file": "_app/immutable/chunks/0-33d38daa.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -1543,9 +1543,17 @@
       "src/www/docs/layouts/toggle/+page.md"
     ]
   },
-  "knobs.css": {
-    "file": "_app/immutable/assets/knobs-11c0d1db.css",
-    "src": "knobs.css"
+  "src/www/docs/components/periodictable/+page.css": {
+    "file": "_app/immutable/assets/_page-e2084339.css",
+    "src": "src/www/docs/components/periodictable/+page.css"
+  },
+  "src/www/docs/components/toast/+page.css": {
+    "file": "_app/immutable/assets/_page-0816f381.css",
+    "src": "src/www/docs/components/toast/+page.css"
+  },
+  "src/www/docs/+layout.css": {
+    "file": "_app/immutable/assets/_layout-fbe21049.css",
+    "src": "src/www/docs/+layout.css"
   },
   "src/www/+page.css": {
     "file": "_app/immutable/assets/_page-34759894.css",
@@ -1555,17 +1563,9 @@
     "file": "_app/immutable/assets/_layout-5a978cc4.css",
     "src": "src/www/+layout.css"
   },
-  "src/www/docs/components/toast/+page.css": {
-    "file": "_app/immutable/assets/_page-0816f381.css",
-    "src": "src/www/docs/components/toast/+page.css"
-  },
-  "src/www/docs/components/periodictable/+page.css": {
-    "file": "_app/immutable/assets/_page-e2084339.css",
-    "src": "src/www/docs/components/periodictable/+page.css"
-  },
-  "src/www/docs/+layout.css": {
-    "file": "_app/immutable/assets/_layout-fbe21049.css",
-    "src": "src/www/docs/+layout.css"
+  "knobs.css": {
+    "file": "_app/immutable/assets/knobs-11c0d1db.css",
+    "src": "knobs.css"
   },
   "Spectre.css": {
     "file": "_app/immutable/assets/Spectre-c55776b1.css",
